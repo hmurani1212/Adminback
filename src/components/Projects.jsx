@@ -1,74 +1,130 @@
-import React from 'react'
+import React from 'react';
 function Projects() {
     return (
         <div
-            name="about"
-            id="about"
+            name="Project"
+            id="Project"
             className="w-full h-screen bg-[#0a192f] text-gray-300"
         >
             <h1 className="text-center text-2xl font-bold">Team Projects</h1>
-            <div className="grid grid-cols-2 gap-2 md:ml-28 my-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:mr-20 md:ml-20">
                 <div>
-                    <a
-                        href="#"
-                        className="block max-w-sm p-6 bg-black text-white
-                         border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-                    >
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-                            E-Commerce Website
-                        </h5>
-                        <p className="font-normal text-white dark:text-gray-400">
-                        <img class="rounded-full w-32 h-32 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXsW_XVJZkhoAXmWtDznTZgCMVMSEum9Vfw&usqp=CAU" alt="image description" />
-                            Our Team has Create a e-commrce website.In which a user can buy product product.if any isssue in product can contect us. We also add a payment method in that
-                        </p>
+                    <h1 className="text-3xl font-bold my-4">1) ECommerce website</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
                     </a>
-
                 </div>
-                <div class="flex items-center justify-center">
-                    <a
-                        href="#"
-                        className="block max-w-sm p-6 bg-black text-white
-                         border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-                    >
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-                            Admin pannel For satff Handling
-                        </h5>
-                        <p className="font-normal text-white dark:text-gray-400">
-                        <img class="rounded-full w-32 h-32 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQElhmAKGuu5LbLrNMhleU9h6trNPsAui_i2Q&usqp=CAU" alt="image description" />
-                            A Comapany Admin can handle position.He can check which his employee on which position.He also can chech add delete aUpdate and fix the position of Staff.
-                        </p>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">2) Admin Dashboard</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
                     </a>
 
                 </div>
                 <div>
-                    <a
-                        href="#"
-                        className="block max-w-sm p-6 bg-black text-white
-                         border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-                    >
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-                            Addentence Sheet
-                        </h5>
-                        <p className="font-normal text-white dark:text-gray-400">
-                        <img class="rounded-full w-32 h-32 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCazbF5EY7njSWS6tymOYA6o3ItOOISiyKA&usqp=CAU" alt="image description" />
-                            We have Craete a attendence Sheet in react js.In which Comaany employee can atendence his daily attendence and can check his daily attendence.Admin can check every Studence attendence and can delete update add delete attendence student attendence
-                        </p>
+                    <h1 className="text-3xl font-bold my-4">3) Attendence Sheet</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
+                    </a>
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">4) New Website</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
                     </a>
 
                 </div>
-                <div class="flex items-center justify-center">
-                    <a href="#" class="block max-w-sm p-6 bg-black text-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-                            Hospital Management System
-                        </h5>
-                        <p class="font-normal text-white dark:text-gray-400">
-                            <img class="rounded-full w-32 h-32 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdY5yxpUjYfLAbxayve76CrEt-14m9R_Sb4g&usqp=CAU" alt="image description" />
-                            We create a hospital management system. In which a patient can take an appointment. In which the doctor can check how many patients he can check, add patients, and check which patient is taking which medicine and how many medicines are remaining in our lab.
-                        </p>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">5) Notes Website</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
                     </a>
-                </div>
 
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">6) Real Time Chat application</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
+                    </a>
+
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">7) Blog Website</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
+                    </a>
+
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">8) Admin Dashboard</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
+                    </a>
+
+                </div>
+                <div>
+                    <h1 className="text-3xl font-bold my-4">9) e bey Calculatore</h1>
+                    <p className="md:ml-5">FrontEnd & Backend Project</p>
+                    <a href="https://admin-panel1-mocha.vercel.app/">
+                        <button
+                            type="button"
+                            className="text-white md:ml-5 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        >
+                            View Project
+                        </button>
+                    </a>
+
+                </div>
             </div>
+
         </div>
     )
 }
